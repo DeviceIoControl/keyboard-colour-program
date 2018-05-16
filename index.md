@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## CLEVO Keyboard Colour Program  
 
-You can use the [editor on GitHub](https://github.com/DeviceIoControl/keyboard-colour-program/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+**This is my FIRST commit.**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a Windows program that I created in C# that is used to create keyboard themes. 
 
-### Markdown
+I initially created this to prevent the 7 startup applications from being launched at boot when I needed the 
+CLEVO Control Center to start the keyboard colour animations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can take this program and do anything you want with it.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### DISCLAIMER
 
-- Bulleted
-- List
+This is **OLD** and **UNFINISHED** code. I will most likely abandon this code because, I will be reprogramming this in C++/CLI or C++ later on (when I have time & and done more research into this). 
 
-1. Numbered
-2. List
+Nothing much has been documented about this code (Not many comments in the code explaining what parts of the code do for the program..)
 
-**Bold** and _Italic_ and `Code` text
+This program was created for my laptop (CLEVO P650RS-G). I cannot guarantee that this will work for other Models of CLEVO laptops.
+(It should / might work for other 3 Colour Zone CLEVO laptop keyboards).
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Current Feature List
 
-### Jekyll Themes
+- Contains a couple of basic animated themes:
+Basic Colour Wave 
+Basic Slow Breathing
+Flashing Lights
+Transforming Lights
+Christmas Lights (Not even christmas themed??)
+White Keyboard
+BGR (Reversed RGB) Keyboard
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DeviceIoControl/keyboard-colour-program/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### CURRENT FINDINGS & PROGRAMMER NOTES
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I have seen a couple of websites that say you require the "Clevo Keyboard Driver" in order to change the colour of the keyboard.
+
+**NO!**
+
+- I had to "reverse engineer" the Clevo Control Center program (which I found out was actually programmed in C#) using a program called "ILSpy" in order to get this program working and the program code **DOES NOT REQUIRE A CLEVO DRIVER**. I even uninstalled all of the drivers that came with the Clevo Control Center and my keyboard remains in a functioning state... (it still changes colour)
+
+- This program actually requires event log (and yes i mean "Windows Event Log") to communicate with the "PowerBiosServer" service which then in turn uses WMI (Windows Management Instrumentation) to communicate with the EC (Embedded Controller) of the laptop / system.
+(Windows has a pre-installed WMI driver that is used to communicate with the EC...)
+
+
+### TIPS ON RECODING...
+
+- In order to increase this application's performance, I recommend reverse engineering the "PowerBiosServer" service (also created in C#) and try to build an application that interfaces with WMI directly so that the "PowerBiosServer" service is no longer needed (therefore meaning no more event log). 
+
+Or if your smart enough..
+
+Build a Windows driver that communicates with the EC of the computer...
