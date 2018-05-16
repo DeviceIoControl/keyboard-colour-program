@@ -289,25 +289,7 @@ namespace _KeyboardColour_
         }
     }
 
-    public static class LogSystem
-    {
-        private static FileStream fs = null;
-        private static byte[] m_Msg;
-        public static void Log(string msg, MSG_SEVERITY level)
-        {
-            if (File.Exists(@"C:\Users\joshs\KeyboardProgram\PROGRAMLOG.txt")){
-                fs = new FileStream(@"C:\Users\joshs\KeyboardProgram\PROGRAMLOG.txt", FileMode.Open);
-            }
-            else {
-                fs = new FileStream(@"C:\Users\joshs\KeyboardProgram\PROGRAMLOG.txt", FileMode.CreateNew);
-            }
-
-            m_Msg = Encoding.ASCII.GetBytes(msg);
-            fs.Write(m_Msg, 0, m_Msg.Length);
-            fs.Close();
-        }
-    }
-
+  
     public static unsafe class thisKeyboard
     {
         static Set2KbColor _keyboard = new Set2KbColor();
@@ -441,7 +423,6 @@ namespace _KeyboardColour_
             int arraySize = objArray.Length;
             if (arraySize > 3)
             {
-                LogSystem.Log("Colour Object array too big (MAX SIZE: 3)", MSG_SEVERITY.ERROR);
                 Environment.Exit(0xFF);
             }
             m_Array = new ColourObject[arraySize];

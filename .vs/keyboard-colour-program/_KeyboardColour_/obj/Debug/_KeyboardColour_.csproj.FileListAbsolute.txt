@@ -14,3 +14,19 @@ u:\00000000001\visual studio 2017\Projects\_KeyboardColour_\_KeyboardColour_\obj
 u:\00000000001\visual studio 2017\Projects\_KeyboardColour_\_KeyboardColour_\obj\Debug\_KeyboardColour_.application
 u:\00000000001\visual studio 2017\Projects\_KeyboardColour_\_KeyboardColour_\obj\Debug\_KeyboardColour_.csproj.CoreCompileInputs.cache
 u:\00000000001\visual studio 2017\Projects\_KeyboardColour_\_KeyboardColour_\bin\Debug\Audiodll.dll
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.csprojAssemblyReference.cache
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.Form1.resources
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.Properties.Resources.resources
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.csproj.GenerateResource.cache
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.csproj.CoreCompileInputs.cache
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.exe
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.pdb
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\bin\Debug\_KeyboardColour_.exe.config
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\bin\Debug\_KeyboardColour_.exe.manifest
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\bin\Debug\_KeyboardColour_.application
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\bin\Debug\_KeyboardColour_.exe
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\bin\Debug\_KeyboardColour_.pdb
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.TrustInfo.xml
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.exe.manifest
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.application
+U:\00000000012\keyboard-colour-program\.vs\keyboard-colour-program\_KeyboardColour_\obj\Debug\_KeyboardColour_.csproj.CopyComplete

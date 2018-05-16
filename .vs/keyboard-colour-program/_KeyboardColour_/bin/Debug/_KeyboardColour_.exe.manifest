@@ -42,38 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_KeyboardColour_.exe" size="16304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_KeyboardColour_.exe" size="14768">
       <assemblyIdentity name="_KeyboardColour_" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MHVKh0HrJB0uo20qAD2OY4GluOEAbm88cQI2jsNj/J8=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Audiodll.dll" size="34264">
-      <assemblyIdentity name="Audiodll" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UlMWJv35vBqAwJAoljGl2XsCXBgyK4noMPVahY2RwRM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ControlCenter.exe" size="5855744">
-      <assemblyIdentity name="ControlCenter" version="5.1.0.70" language="neutral" processorArchitecture="x86" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WbOe89mCgAwBKUka3gTlmX2inTuu7kJq+dGxHg2GQqw=</dsig:DigestValue>
+        <dsig:DigestValue>oyPRF4fUUBBoXKtQDNACTz6trEL9w7eDqWTmAVsUxUY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
