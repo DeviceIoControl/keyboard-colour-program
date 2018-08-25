@@ -19,6 +19,7 @@ Nothing much has been documented about this code (Not many comments in the code 
 This program was created for my laptop (CLEVO P650RS-G). I cannot guarantee that this will work for other Models of CLEVO laptops.
 (It should / might work for other 3 Colour Zone CLEVO laptop keyboards).
 
+### UPDATES -> I have created a C++ version of this program that is more optimised... link: https://github.com/DeviceIoControl/CppKeyboardColour
 
 ### Current Feature List
 
