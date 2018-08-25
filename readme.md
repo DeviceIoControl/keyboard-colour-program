@@ -23,14 +23,14 @@ This program was created for my laptop (CLEVO P650RS-G). I cannot guarantee that
 
 ### Current Feature List
 
-- Contains a couple of basic animated themes:
-Basic Colour Wave 
-Basic Slow Breathing
-Flashing Lights
-Transforming Lights
-Christmas Lights (Not even christmas themed??)
-White Keyboard
-BGR (Reversed RGB) Keyboard
+## Contains a couple of basic animated themes:
+- Basic Colour Wave 
+- Basic Slow Breathing
+- Flashing Lights
+- Transforming Lights
+- Christmas Lights (Not even christmas themed??)
+- White Keyboard
+- BGR (Reversed RGB) Keyboard
 
 
 ### CURRENT FINDINGS & PROGRAMMER NOTES
